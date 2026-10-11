@@ -6,6 +6,9 @@
   NODE_VERSION = "22"
   NEXT_TELEMETRY_DISABLED = "1"
 
-# Netlify automatically installs its current OpenNext adapter for Next.js.
+# Explicitly enable the Next.js adapter to generate Netlify routing and functions.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 # Set Resend and Turnstile secrets in Netlify's environment variables UI,
 # with the Functions scope enabled. Never put credentials in this file.
