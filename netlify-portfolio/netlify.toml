@@ -10,5 +10,4 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# Set Resend and Turnstile secrets in Netlify's environment variables UI,
-# with the Functions scope enabled. Never put credentials in this file.
+# The Web3Forms contact form requires no Netlify environment variables.
