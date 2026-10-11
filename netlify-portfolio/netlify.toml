@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Netlify automatically installs its current OpenNext adapter for Next.js.
+# Set Resend and Turnstile secrets in Netlify's environment variables UI,
+# with the Functions scope enabled. Never put credentials in this file.
